@@ -1,1 +1,21 @@
-test
+Assembler
+Assembler 1952-ci ildə Qreys Hopper tərəfindən yaradılmısdır.
+Hal hazırda sistem programlaşdırmada istifadə olunur.Asembler 2-ci nesil dildir.
+Assembler dilinde yazilmis program ile yaddasa muraciyet rejimlərin(segment:offset,paging)
+idarə etmək mümkündür və ya prosessorun xarici və daxili siqnallara cavab reaksiyasın
+(kəsilmələri) idarə etmək mümkündür.
+С
+1969-1973 –ci ilde Bell  Denis Ritci tərəfindən yaradılmış programlaşdırma dilidir.
+İlk dəfə bu dildə yazılan proglamlar UNİX əməliyyat sistemində calısırdı,sonradan 
+digər platformalara da kecirilmişdir.C++,C#,Java  və Objective-C kimi programlasdırma 
+dillərinin yaranmasında böyük rolu olmuşdur. Windows,Linux,Unix,FreeBSD əməliyyat sistemləri 
+bu dildə yazılmışdır. Prosedur(algoritmik) dil sayilir..
+Ruby
+Yukixuru Matzumoto tərəfindən 1995 ildə yazılmış obyekt-yönümlü programlaşdırma dilidir.
+Sintaksisi Perl,Eiffel dillerine yaxindir, obyekt-yonumlu dillerden Smalltalk dilinə yaxındır.
+Bəzi xüsusiyətləri isə Python,Lisp,Dylan dillərindən götürülmüşdür.WEB-programlasdırma dilidir.
+JavaScript
+JavaScript-İnternet seyifelerin yaradilmasinda istifade olunan obyekt-yonumlu programlasdirma dilidir.
+1995 – ci ilde Brendan Eyx  terefinden yaradilmisdir.Evveller LiveScript adlandirilan JavaScript sehifə
+ile istifadeci arasindaki interfeyse funksional imkanlar veren alqoritmik dildir.Dinamik seyifelerin 
+yaradilmasinda istifade olunur.
