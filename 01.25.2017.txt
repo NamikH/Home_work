@@ -1,0 +1,80 @@
+﻿1)Deyishen nedir?
+  Dəyişən bir yaddaş sahəsidir, bu yaddaş sahəsinin adresi 
+  vasitəsi ilə datalara yetkilənmək olur.Bu adresdə yerləsən datalar isə dəyişənin dəyəri sayılır. 
+2)Ən çox istifadə olunan məlumat növlərini izahlı şəkildə yazın
+
+3)Riyazi operatorlar hansilardir? Fərqli proqramlaşdırma dillərində bu operatorlar arasında hansı fərqli xüsusiyətlər var?  
+  +,-,*,/,%(qaliq gostərir).
+  * - operatoru T-SQL də cədvəldə olan butun məlumatı gətirmək üçündə istifade olunur.
+  Misal:
+     SELECT * FROM TEST_TABLE
+  % - oxşar bir söz axdarmaqda istifadə olunur
+  Misal:
+    SELECT * FROM TEST_TABLE WHERE NAME LIKE ‘%EST’
+  Name sütununda yerləşən və sonu (EST)-ilə bitən bütün sözləri bizə qaytarir.
+
+4)Məntiq operatorları hansılardır? Nümunələr üzərində izah edin
+  && - və
+   Misal:
+   int a = 5;
+   int b = 7;
+   
+    if(a==b && b<=7){
+     Console.Writeline(true);
+    }
+    else{
+     Console.Writeline(false);
+    }
+ 
+   Şərtlərdən biri ödənmirsə false qaytarır. 
+   
+   || - və ya
+    Misal:
+    if(a==b || b<=7){
+    Console.WriteLine(true);
+    }
+    else{
+    Console.WriteLine(false);
+    }
+    Şərtlərdən hər hansı biri odəndikdə true qaytarır
+   ! - deyil
+   int a = 5;
+   int b = 10;
+   if(a != 10){
+      Console.WriteLine(true);
+   }
+   else{
+      Console.WriteLine(false);
+   }
+5)Şərt operatorları hansılardır?
+   if,else
+     Misal:
+     int a = 2;
+	 if(a % 2 == 0){
+	    Console.WriteLine("Cut eded");
+	 }
+     else{
+	    Console.WriteLine("Tek eded");
+	 }
+   
+   switch-case
+   Misal:
+         Console.Write("Heftenin necenci gunudur?");
+           int gun = Convert.ToInt16(Console.ReadLine());
+            switch (gun) {
+                case 1: Console.WriteLine("bazar ertəsi"); break;
+                case 2: Console.WriteLine("çərşənbə axşamı"); break;
+                case 3: Console.WriteLine("çərşənbə"); break;
+                case 4: Console.WriteLine("cümə axşamı"); break;
+                case 5: Console.WriteLine("cümə"); break;
+                case 6: Console.WriteLine("şənbə"); break;
+                case 7: Console.WriteLine("bazar"); break;
+                default: Console.WriteLine("Heftede cemi 7 gun var))"); break;
+
+            }
+            Console.ReadLine();
+  int gun deyishenine oturulen deyer case-nin qarsisinda olan reqemle yoxlanilir.
+  Reqemler uygun deyilse default qaytarir.
+
+	 
+	 
